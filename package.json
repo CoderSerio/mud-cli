@@ -1,0 +1,36 @@
+{
+  "name": "@trickle/mud-cli",
+  "version": "0.0.1",
+  "description": "Create Mud.js project template",
+  "main": "index.js",
+  "bin": {
+    "mud-cli": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderSerio/mud-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CoderSerio/mud-cli/issues",
+    "email": "2779066456@qq.com"
+  },
+  "keywords": [
+    "Mud.js",
+    "Mud",
+    "cli"
+  ],
+  "author": "<CoderSerio>(2779066456@qq.com)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "git-clone": "^0.2.0",
+    "shelljs": "^0.8.5",
+    "tracer": "^1.1.6"
+  }
+}
